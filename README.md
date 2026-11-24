@@ -1,4 +1,4 @@
-﻿# eBook Maker
+# eBook Maker
 
 > Gere eBooks profissionais com capas geradas por IA em minutos. Zero conhecimento tÃ©cnico necessÃ¡rio.
 
@@ -39,7 +39,7 @@ O Claude faz todo o trabalho automaticamente!
 Abra o terminal e digite:
 
 ```bash
-git clone https://github.com/inematds/ebook-maker.git
+git clone https://github.com/linnoff88-dev/ebook-maker.git
 cd ebook-maker
 ```
 
@@ -277,7 +277,7 @@ Se preferir nÃ£o usar o Claude Code:
 
 ```bash
 # Clonar repositÃ³rio
-git clone https://github.com/inematds/ebook-maker.git
+git clone https://github.com/linnoff88-dev/ebook-maker.git
 cd ebook-maker
 
 # Configurar API
@@ -438,4 +438,4 @@ MIT â€” use como quiser.
 
 ---
 
-Projeto adaptado da comunidade INEMA TDS - Marca Arckhe
+Projeto adaptado da comunidade ARCKHÉ TDS - Marca Arckhe
