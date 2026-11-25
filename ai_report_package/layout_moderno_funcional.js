@@ -1,7 +1,7 @@
 /**
  * LAYOUT: MODERNO FUNCIONAL
  * Estilo: Manuais, guias, ebooks de marketing, tutoriais
- * Inspiração: A Book Apart, O'Reilly Books
+ * Inspiraçêo: A Book Apart, O'Reilly Books
  *
  * Características:
  * - Fonte sans-serif (Arial/Roboto)
@@ -136,7 +136,7 @@ function createSummaryBox(items) {
   });
 }
 
-// Cabeçalho de seção com linha
+// Cabeçalho de seçêo com linha
 function createSectionHeader(number, title) {
   return [
     new Paragraph({
@@ -327,19 +327,19 @@ const doc = new Document({
         createBulletItem("Profissionais com skills de prompt ganham 40% mais"),
         createBulletItem("Produtividade aumenta em média 10x com prompts otimizados"),
 
-        createWarningBox("Não confie cegamente nas respostas da IA. Sempre verifique fatos e dados antes de usar o conteúdo gerado."),
+        createWarningBox("Nêo confie cegamente nas respostas da IA. Sempre verifique fatos e dados antes de usar o conteúdo gerado."),
 
         createSubheading("Os 4 Pilares de Um Bom Prompt"),
 
         createNumberedItem("1", "Contexto", "Forneça informações de fundo relevantes"),
-        createNumberedItem("2", "Instrução", "Diga exatamente o que você quer"),
+        createNumberedItem("2", "Instruçêo", "Diga exatamente o que você quer"),
         createNumberedItem("3", "Formato", "Especifique como quer a resposta"),
-        createNumberedItem("4", "Tom", "Defina o estilo de comunicação"),
+        createNumberedItem("4", "Tom", "Defina o estilo de comunicaçêo"),
 
         new Paragraph({ spacing: { before: 300 }, children: [] }),
         createSummaryBox([
           "Engenharia de Prompt é essencial em 2026",
-          "Defina sempre contexto, instrução, formato e tom",
+          "Defina sempre contexto, instruçêo, formato e tom",
           "Verifique as respostas antes de usar",
           "Pratique diariamente para melhorar"
         ]),
@@ -349,7 +349,7 @@ const doc = new Document({
         // Capítulo 2
         ...createSectionHeader("02", "TÉCNICAS AVANÇADAS"),
 
-        createParagraph("Agora que você conhece os fundamentos, vamos explorar técnicas que vão elevar seus resultados ao próximo nível."),
+        createParagraph("Agora que você conhece os fundamentos, vamos explorar técnicas que vêo elevar seus resultados ao próximo nível."),
 
         createSubheading("Chain-of-Thought (Cadeia de Pensamento)"),
 
@@ -359,7 +359,7 @@ const doc = new Document({
 
         createSubheading("Few-Shot Learning"),
 
-        createParagraph("Forneça 2-3 exemplos do tipo de resposta que você espera. A IA aprenderá o padrão e aplicará aos novos casos."),
+        createParagraph("Forneça 2-3 exemplos do tipo de resposta que você espera. A IA aprenderá o padrêo e aplicará aos novos casos."),
 
         createBulletItem("Exemplo 1: [entrada] → [saída esperada]"),
         createBulletItem("Exemplo 2: [entrada] → [saída esperada]"),

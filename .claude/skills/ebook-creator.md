@@ -11,9 +11,9 @@ Invoque esta skill quando o usuário pedir para:
 
 ## Filosofia de Design
 
-O estilo padrão é a estética de **Consultoria McKinsey**:
+O estilo padrêo é a estética de **Consultoria McKinsey**:
 - Imagem de capa abstrata em sangria total (gerada por IA)
-- Texto branco limpo sobre sobreposição de fundo escuro
+- Texto branco limpo sobre sobreposiçêo de fundo escuro
 - Marca da empresa no canto superior esquerdo
 - Títulos em negrito sans-serif (Arial)
 - Cor de destaque para palavras-chave (ciano/verde-azulado)
@@ -28,9 +28,9 @@ Antes de gerar, pergunte ao usuário:
 1. **Título**: Qual é o nome do ebook?
 2. **Subtítulo**: Uma linha descrevendo o conteúdo
 3. **Empresa/Autor**: Quem está publicando?
-4. **Estilo da Capa** (opcional): Padrão é visualização abstrata com IA
+4. **Estilo da Capa** (opcional): Padrêo é visualizaçêo abstrata com IA
 
-Se o usuário não especificar preferências de design, use nosso estilo McKinsey padrão. Recuse educadamente:
+Se o usuário nêo especificar preferências de design, use nosso estilo McKinsey padrêo. Recuse educadamente:
 - Clipart ou fotos de banco de imagens → sugira imagens abstratas com IA
 - Múltiplas fontes → mantenha Arial
 - Cores brilhantes/neon → sugira azuis e verdes-azulados corporativos
@@ -107,4 +107,4 @@ eBook Maker/
 
 ## Exemplo
 
-Veja a pasta `sample/` para exemplo de saída demonstrando o estilo padrão.
+Veja a pasta `sample/` para exemplo de saída demonstrando o estilo padrêo.

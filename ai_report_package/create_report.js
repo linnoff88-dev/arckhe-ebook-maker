@@ -267,7 +267,7 @@ const doc = new Document({
                     new Paragraph({
                       indent: { left: 400 },
                       children: [
-                        new TextRun({ text: "Guia Completo para Dominar a Comunicação com IA", size: 22, color: WHITE, font: "Arial" })
+                        new TextRun({ text: "Guia Completo para Dominar a Comunicaçêo com IA", size: 22, color: WHITE, font: "Arial" })
                       ]
                     })
                   ]
@@ -309,7 +309,7 @@ const doc = new Document({
         new Table({
           columnWidths: [7800, 1560],
           rows: [
-            // Introdução
+            // Introduçêo
             new TableRow({
               children: [
                 new TableCell({
@@ -317,7 +317,7 @@ const doc = new Document({
                   width: { size: 7800, type: WidthType.DXA },
                   children: [new Paragraph({
                     spacing: { before: 200, after: 200 },
-                    children: [new TextRun({ text: "Introdução: Por Que Engenharia de Prompt?", bold: true, size: 28, color: DARK_PURPLE, font: "Arial" })]
+                    children: [new TextRun({ text: "Introduçêo: Por Que Engenharia de Prompt?", bold: true, size: 28, color: DARK_PURPLE, font: "Arial" })]
                   })]
                 }),
                 new TableCell({
@@ -516,7 +516,7 @@ const doc = new Document({
                   width: { size: 7800, type: WidthType.DXA },
                   children: [new Paragraph({
                     spacing: { before: 200, after: 200 },
-                    children: [new TextRun({ text: "Conclusão: Sua Jornada Começa Agora", bold: true, size: 28, color: DARK_PURPLE, font: "Arial" })]
+                    children: [new TextRun({ text: "Conclusêo: Sua Jornada Começa Agora", bold: true, size: 28, color: DARK_PURPLE, font: "Arial" })]
                   })]
                 }),
                 new TableCell({
@@ -599,20 +599,20 @@ const doc = new Document({
         })
       },
       children: [
-        // INTRODUÇÃO
-        createSectionHeader("Introdução: Por Que Engenharia de Prompt?"),
+        // INTRODUÇêO
+        createSectionHeader("Introduçêo: Por Que Engenharia de Prompt?"),
         new Paragraph({ spacing: { before: 300 }, children: [] }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "Vivemos em um momento histórico. A Inteligência Artificial deixou de ser ficção científica para se tornar uma ferramenta acessível a qualquer pessoa com acesso à internet. Mas aqui está o segredo que poucos entendem: a qualidade das suas interações com IA depende diretamente da qualidade dos seus prompts.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Vivemos em um momento histórico. A Inteligência Artificial deixou de ser ficçêo científica para se tornar uma ferramenta acessível a qualquer pessoa com acesso à internet. Mas aqui está o segredo que poucos entendem: a qualidade das suas interações com IA depende diretamente da qualidade dos seus prompts.", size: 24, font: "Arial" })]
         }),
         createPullQuote(
-          "Um prompt bem construído é a diferença entre uma resposta genérica e uma solução transformadora. É a habilidade mais valiosa da era da IA.",
+          "Um prompt bem construído é a diferença entre uma resposta genérica e uma soluçêo transformadora. É a habilidade mais valiosa da era da IA.",
           "Especialista em IA, 2025"
         ),
         new Paragraph({
           spacing: { before: 300, after: 200 },
-          children: [new TextRun({ text: "Este eBook vai te ensinar a dominar a arte e a ciência da Engenharia de Prompt. Você aprenderá não apenas técnicas, mas uma nova forma de pensar que vai multiplicar sua produtividade e criatividade em qualquer área de atuação.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Este eBook vai te ensinar a dominar a arte e a ciência da Engenharia de Prompt. Você aprenderá nêo apenas técnicas, mas uma nova forma de pensar que vai multiplicar sua produtividade e criatividade em qualquer área de atuaçêo.", size: 24, font: "Arial" })]
         }),
         // Bold stats row
         new Paragraph({ spacing: { before: 300 }, children: [] }),
@@ -629,7 +629,7 @@ const doc = new Document({
                 new TableCell({
                   borders: noBorders,
                   width: { size: 3120, type: WidthType.DXA },
-                  children: [createStatBox("85%", "das empresas usarão IA até 2026", ACCENT_GOLD)]
+                  children: [createStatBox("85%", "das empresas usarêo IA até 2026", ACCENT_GOLD)]
                 }),
                 new TableCell({
                   borders: noBorders,
@@ -651,7 +651,7 @@ const doc = new Document({
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "Um prompt é qualquer texto que você envia para um modelo de linguagem para obter uma resposta. Pode ser uma pergunta simples, uma instrução detalhada, ou um conjunto complexo de diretrizes. O prompt é sua interface de comunicação com a IA.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Um prompt é qualquer texto que você envia para um modelo de linguagem para obter uma resposta. Pode ser uma pergunta simples, uma instruçêo detalhada, ou um conjunto complexo de diretrizes. O prompt é sua interface de comunicaçêo com a IA.", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           spacing: { after: 200 },
@@ -677,7 +677,7 @@ const doc = new Document({
           numbering: { reference: "numbered-list-1", level: 0 },
           spacing: { after: 100 },
           children: [
-            new TextRun({ text: "Instrução: ", bold: true, size: 24, font: "Arial", color: PURPLE }),
+            new TextRun({ text: "Instruçêo: ", bold: true, size: 24, font: "Arial", color: PURPLE }),
             new TextRun({ text: "O que exatamente você quer que a IA faça.", size: 24, font: "Arial" })
           ]
         }),
@@ -694,7 +694,7 @@ const doc = new Document({
           spacing: { after: 100 },
           children: [
             new TextRun({ text: "Tom: ", bold: true, size: 24, font: "Arial", color: PURPLE }),
-            new TextRun({ text: "O estilo de comunicação desejado (formal, casual, técnico, etc.).", size: 24, font: "Arial" })
+            new TextRun({ text: "O estilo de comunicaçêo desejado (formal, casual, técnico, etc.).", size: 24, font: "Arial" })
           ]
         }),
         new Paragraph({
@@ -728,7 +728,7 @@ const doc = new Document({
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "Esta técnica consiste em pedir à IA que \"pense em voz alta\", explicando seu raciocínio passo a passo antes de chegar à conclusão. Isso melhora dramaticamente a qualidade das respostas em problemas complexos.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Esta técnica consiste em pedir à IA que \"pense em voz alta\", explicando seu raciocínio passo a passo antes de chegar à conclusêo. Isso melhora dramaticamente a qualidade das respostas em problemas complexos.", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           numbering: { reference: "bullet-list", level: 0 },
@@ -748,7 +748,7 @@ const doc = new Document({
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "Forneça exemplos do tipo de resposta que você espera. A IA aprenderá o padrão e aplicará aos novos casos.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Forneça exemplos do tipo de resposta que você espera. A IA aprenderá o padrêo e aplicará aos novos casos.", size: 24, font: "Arial" })]
         }),
         createPullQuote(
           "Um exemplo vale mais que mil explicações. Few-shot learning é a forma mais eficiente de mostrar à IA exatamente o que você quer.",
@@ -756,7 +756,7 @@ const doc = new Document({
         ),
         new Paragraph({
           heading: HeadingLevel.HEADING_2,
-          children: [new TextRun("Role Playing (Atribuição de Papel)")]
+          children: [new TextRun("Role Playing (Atribuiçêo de Papel)")]
         }),
         new Paragraph({
           spacing: { after: 200 },
@@ -817,7 +817,7 @@ const doc = new Document({
                   width: { size: 7020, type: WidthType.DXA },
                   children: [new Paragraph({
                     spacing: { before: 150, after: 150 },
-                    children: [new TextRun({ text: "DESCRIÇÃO", bold: true, size: 22, color: WHITE, font: "Arial" })]
+                    children: [new TextRun({ text: "DESCRIÇêO", bold: true, size: 22, color: WHITE, font: "Arial" })]
                   })]
                 })
               ]
@@ -984,11 +984,11 @@ const doc = new Document({
         new Paragraph({ spacing: { before: 300 }, children: [] }),
         new Paragraph({
           heading: HeadingLevel.HEADING_2,
-          children: [new TextRun("Escrita e Criação de Conteúdo")]
+          children: [new TextRun("Escrita e Criaçêo de Conteúdo")]
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "A engenharia de prompt revoluciona a criação de conteúdo. Com os prompts certos, você pode gerar:", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "A engenharia de prompt revoluciona a criaçêo de conteúdo. Com os prompts certos, você pode gerar:", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           numbering: { reference: "bullet-list", level: 0 },
@@ -1008,27 +1008,27 @@ const doc = new Document({
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_2,
-          children: [new TextRun("Programação e Desenvolvimento")]
+          children: [new TextRun("Programaçêo e Desenvolvimento")]
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "Desenvolvedores estão usando prompts para acelerar drasticamente seu trabalho:", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Desenvolvedores estêo usando prompts para acelerar drasticamente seu trabalho:", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           numbering: { reference: "bullet-list", level: 0 },
-          children: [new TextRun({ text: "Geração de código boilerplate", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Geraçêo de código boilerplate", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           numbering: { reference: "bullet-list", level: 0 },
-          children: [new TextRun({ text: "Debug e identificação de erros", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Debug e identificaçêo de erros", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           numbering: { reference: "bullet-list", level: 0 },
-          children: [new TextRun({ text: "Refatoração e otimização de código", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Refatoraçêo e otimizaçêo de código", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           numbering: { reference: "bullet-list", level: 0 },
-          children: [new TextRun({ text: "Documentação automática", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Documentaçêo automática", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_2,
@@ -1044,18 +1044,18 @@ const doc = new Document({
         }),
         new Paragraph({
           numbering: { reference: "bullet-list", level: 0 },
-          children: [new TextRun({ text: "Identificação de padrões e tendências", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Identificaçêo de padrões e tendências", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           numbering: { reference: "bullet-list", level: 0 },
-          children: [new TextRun({ text: "Geração de relatórios executivos", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Geraçêo de relatórios executivos", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           numbering: { reference: "bullet-list", level: 0 },
           children: [new TextRun({ text: "Previsões e modelagem de cenários", size: 24, font: "Arial" })]
         }),
         createPullQuote(
-          "Quem domina prompts não substitui seu trabalho pela IA — multiplica sua capacidade de entrega em 10x ou mais.",
+          "Quem domina prompts nêo substitui seu trabalho pela IA — multiplica sua capacidade de entrega em 10x ou mais.",
           "CEO de Startup de Tecnologia"
         ),
         new Paragraph({ children: [new PageBreak()] }),
@@ -1077,11 +1077,11 @@ const doc = new Document({
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "A IA não conhece sua situação específica. Forneça contexto relevante: seu setor, público-alvo, objetivos, restrições. Quanto mais contexto, melhor a resposta.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "A IA nêo conhece sua situaçêo específica. Forneça contexto relevante: seu setor, público-alvo, objetivos, restrições. Quanto mais contexto, melhor a resposta.", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_2,
-          children: [new TextRun("3. Esperar Perfeição na Primeira Tentativa")]
+          children: [new TextRun("3. Esperar Perfeiçêo na Primeira Tentativa")]
         }),
         new Paragraph({
           spacing: { after: 200 },
@@ -1089,11 +1089,11 @@ const doc = new Document({
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_2,
-          children: [new TextRun("4. Não Verificar as Respostas")]
+          children: [new TextRun("4. Nêo Verificar as Respostas")]
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "IAs podem \"alucinar\" — gerar informações que parecem corretas mas não são. Sempre verifique fatos, dados e referências antes de usar o conteúdo.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "IAs podem \"alucinar\" — gerar informações que parecem corretas mas nêo sêo. Sempre verifique fatos, dados e referências antes de usar o conteúdo.", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_2,
@@ -1105,11 +1105,11 @@ const doc = new Document({
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_2,
-          children: [new TextRun("6. Não Definir Restrições")]
+          children: [new TextRun("6. Nêo Definir Restrições")]
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "Defina claramente o que você NÃO quer. Limites de palavras, tópicos a evitar, tom inadequado — restrições são tão importantes quanto instruções.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Defina claramente o que você NêO quer. Limites de palavras, tópicos a evitar, tom inadequado — restrições sêo têo importantes quanto instruções.", size: 24, font: "Arial" })]
         }),
         new Paragraph({ children: [new PageBreak()] }),
 
@@ -1122,7 +1122,7 @@ const doc = new Document({
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "O campo da engenharia de prompt está evoluindo rapidamente. Aqui estão as principais tendências que moldarão o futuro:", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "O campo da engenharia de prompt está evoluindo rapidamente. Aqui estêo as principais tendências que moldarêo o futuro:", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_3,
@@ -1130,7 +1130,7 @@ const doc = new Document({
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "A comunicação com IA não será apenas texto. Combinações de texto, imagem, áudio e vídeo permitirão instruções mais ricas e respostas mais completas.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "A comunicaçêo com IA nêo será apenas texto. Combinações de texto, imagem, áudio e vídeo permitirêo instruções mais ricas e respostas mais completas.", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_3,
@@ -1138,7 +1138,7 @@ const doc = new Document({
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "Sistemas de IA que executam tarefas complexas de forma autônoma, usando prompts como \"objetivos de missão\" em vez de instruções passo a passo.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "Sistemas de IA que executam tarefas complexas de forma autônoma, usando prompts como \"objetivos de missêo\" em vez de instruções passo a passo.", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_3,
@@ -1150,20 +1150,20 @@ const doc = new Document({
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_3,
-          children: [new TextRun("Democratização Total")]
+          children: [new TextRun("Democratizaçêo Total")]
         }),
         new Paragraph({
           spacing: { after: 200 },
           children: [new TextRun({ text: "Interfaces que traduzem linguagem natural em prompts otimizados, tornando o poder da IA acessível a qualquer pessoa, independente de conhecimento técnico.", size: 24, font: "Arial" })]
         }),
         createPullQuote(
-          "Em 2026, não saber usar IA será como não saber usar email em 2010. A engenharia de prompt é a alfabetização digital da nova era.",
+          "Em 2026, nêo saber usar IA será como nêo saber usar email em 2010. A engenharia de prompt é a alfabetizaçêo digital da nova era.",
           "Futurista de Tecnologia"
         ),
         new Paragraph({ children: [new PageBreak()] }),
 
-        // CONCLUSÃO
-        createSectionHeader("Conclusão: Sua Jornada Começa Agora"),
+        // CONCLUSêO
+        createSectionHeader("Conclusêo: Sua Jornada Começa Agora"),
         new Paragraph({ spacing: { before: 300 }, children: [] }),
         new Paragraph({
           spacing: { after: 200 },
@@ -1171,7 +1171,7 @@ const doc = new Document({
         }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "A engenharia de prompt não é apenas uma habilidade técnica — é uma nova forma de pensar. É a capacidade de traduzir suas ideias em instruções que máquinas podem executar. E essa capacidade vai se tornar cada vez mais valiosa.", size: 24, font: "Arial" })]
+          children: [new TextRun({ text: "A engenharia de prompt nêo é apenas uma habilidade técnica — é uma nova forma de pensar. É a capacidade de traduzir suas ideias em instruções que máquinas podem executar. E essa capacidade vai se tornar cada vez mais valiosa.", size: 24, font: "Arial" })]
         }),
         new Paragraph({
           heading: HeadingLevel.HEADING_2,
@@ -1220,7 +1220,7 @@ const doc = new Document({
         new Paragraph({ spacing: { before: 300 }, children: [] }),
         new Paragraph({
           spacing: { after: 200 },
-          children: [new TextRun({ text: "O futuro pertence a quem sabe se comunicar com as máquinas. E agora você tem as ferramentas para estar na vanguarda dessa revolução.", size: 24, font: "Arial", bold: true })]
+          children: [new TextRun({ text: "O futuro pertence a quem sabe se comunicar com as máquinas. E agora você tem as ferramentas para estar na vanguarda dessa revoluçêo.", size: 24, font: "Arial", bold: true })]
         }),
         new Paragraph({
           spacing: { before: 400, after: 200 },

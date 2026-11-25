@@ -1,37 +1,37 @@
 # eBook Maker
 
-> Gere eBooks profissionais com capas geradas por IA em minutos. Zero conhecimento tÃ©cnico necessÃ¡rio.
+> Gere eBooks profissionais com capas geradas por IA em minutos. Zero conhecimento têÂ©cnico necessêÂ¡rio.
 
 ![Capa de Exemplo](sample/cover_image.png)
 
 ---
 
-## Para Iniciantes: Use com Claude Code (Mais FÃ¡cil!)
+## Para Iniciantes: Use com Claude Code (Mais FêÂ¡cil!)
 
-Se vocÃª tem o **Claude Code** instalado, nÃ£o precisa fazer nada manual. Basta dizer:
+Se vocêÂª tem o **Claude Code** instalado, nêÂ£o precisa fazer nada manual. Basta dizer:
 
-> "Crie um ebook sobre [seu tÃ³pico]"
+> "Crie um ebook sobre [seu têÂ³pico]"
 
 O Claude faz todo o trabalho automaticamente!
 
-**NÃ£o tem Claude Code?** [Instale aqui](https://claude.ai/code) e siga o tutorial abaixo.
+**NêÂ£o tem Claude Code?** [Instale aqui](https://claude.ai/code) e siga o tutorial abaixo.
 
 ---
 
 ## Tutorial Completo para Leigos (Passo a Passo)
 
-### O Que VocÃª Vai Precisar
+### O Que VocêÂª Vai Precisar
 
 | Ferramenta | Para Que Serve | Link |
 |------------|----------------|------|
 | **Claude Code** | Assistente IA que cria o eBook | [claude.ai/code](https://claude.ai/code) |
-| **Conta Google** | Para gerar imagens de capa | VocÃª jÃ¡ tem! |
+| **Conta Google** | Para gerar imagens de capa | VocêÂª jêÂ¡ tem! |
 
 ### Passo 1: Instalar o Claude Code
 
 1. Acesse [claude.ai/code](https://claude.ai/code)
 2. Baixe o instalador para seu sistema (Windows/Mac/Linux)
-3. Execute o instalador e siga as instruÃ§Ãµes
+3. Execute o instalador e siga as instruêÂ§êÂµes
 4. Abra o terminal e digite `claude` para verificar se funcionou
 
 ### Passo 2: Baixar Este Projeto
@@ -43,10 +43,10 @@ git clone https://github.com/linnoff88-dev/ebook-maker.git
 cd ebook-maker
 ```
 
-### Passo 3: Obter Chave da API do Google (GrÃ¡tis)
+### Passo 3: Obter Chave da API do Google (GrêÂ¡tis)
 
 1. Acesse [aistudio.google.com/apikey](https://aistudio.google.com/apikey)
-2. FaÃ§a login com sua conta Google
+2. FaêÂ§a login com sua conta Google
 3. Clique em **"Create API Key"**
 4. Copie a chave gerada (parece com: `AIzaSy...`)
 
@@ -60,7 +60,7 @@ claude
 
 ### Passo 5: Configurar e Criar Seu eBook
 
-Agora Ã© sÃ³ conversar com o Claude! Diga:
+Agora êÂ© sêÂ³ conversar com o Claude! Diga:
 
 > "Configure a chave da API: [cole sua chave aqui]"
 
@@ -72,42 +72,42 @@ Depois:
 > "Crie um ebook sobre Marketing Digital para Pequenas Empresas"
 
 O Claude vai:
-1. Perguntar o tÃ­tulo e subtÃ­tulo
+1. Perguntar o têÂ­tulo e subtêÂ­tulo
 2. Gerar uma capa profissional com IA
-3. Criar todo o conteÃºdo formatado
+3. Criar todo o conteêÂºdo formatado
 4. Exportar para PDF
 
-**Pronto! Seu eBook estarÃ¡ na pasta `output/`**
+**Pronto! Seu eBook estarêÂ¡ na pasta `output/`**
 
 ---
 
-## 3 Layouts DisponÃ­veis
+## 3 Layouts DisponêÂ­veis
 
 Este projeto inclui 3 estilos de layout profissionais:
 
-### 1. Editorial ClÃ¡ssico
+### 1. Editorial ClêÂ¡ssico
 **Arquivo:** `layout_editorial_classico.js`
 
-**Ideal para:** Romances, biografias, livros de histÃ³ria
+**Ideal para:** Romances, biografias, livros de histêÂ³ria
 
-**CaracterÃ­sticas:**
+**CaracterêÂ­sticas:**
 - Fonte serifada elegante (Georgia)
-- Capitulares decorativas (letra grande no inÃ­cio)
-- EpÃ­grafes (citaÃ§Ãµes no inÃ­cio dos capÃ­tulos)
-- Margens largas com proporÃ§Ã£o clÃ¡ssica
-- Ornamentos tipogrÃ¡ficos (â¦)
-- NumeraÃ§Ã£o de pÃ¡gina centralizada
+- Capitulares decorativas (letra grande no inêÂ­cio)
+- EpêÂ­grafes (citaêÂ§êÂµes no inêÂ­cio dos capêÂ­tulos)
+- Margens largas com proporêÂ§êÂ£o clêÂ¡ssica
+- Ornamentos tipogrêÂ¡ficos (ê¢ÂÂ¦)
+- NumeraêÂ§êÂ£o de pêÂ¡gina centralizada
 
-**InspiraÃ§Ã£o:** Penguin Classics, livros da Companhia das Letras
+**InspiraêÂ§êÂ£o:** Penguin Classics, livros da Companhia das Letras
 
 ```
 +------------------------+
 |                        |
-|    CAPÃTULO I          |
-|    O InÃ­cio            |
-|         â§              |
-|  "CitaÃ§Ã£o elegante"    |
-|      â€” Autor           |
+|    CAPêÂTULO I          |
+|    O InêÂ­cio            |
+|         ê¢ÂÂ§              |
+|  "CitaêÂ§êÂ£o elegante"    |
+|      ê¢â¬â Autor           |
 |                        |
 |  ERA uma vez, em um    |
 |  reino distante...     |
@@ -123,49 +123,49 @@ Este projeto inclui 3 estilos de layout profissionais:
 
 **Ideal para:** Guias, tutoriais, eBooks de marketing, manuais
 
-**CaracterÃ­sticas:**
+**CaracterêÂ­sticas:**
 - Fonte sans-serif limpa (Arial)
 - Caixas coloridas de destaque (Dicas, Avisos, Resumos)
 - Listas e bullets bem definidos
-- CabeÃ§alhos numerados com linhas divisÃ³rias
-- Foco em escaneabilidade e aprendizado rÃ¡pido
+- CabeêÂ§alhos numerados com linhas divisêÂ³rias
+- Foco em escaneabilidade e aprendizado rêÂ¡pido
 
-**InspiraÃ§Ã£o:** Livros da O'Reilly, A Book Apart
+**InspiraêÂ§êÂ£o:** Livros da O'Reilly, A Book Apart
 
 ```
 +------------------------+
-|  GUIA PRÃTICO      P.4 |
+|  GUIA PRêÂTICO      P.4 |
 |  ________________      |
 |                        |
 |  # 1. O Conceito       |
 |                        |
 |  +------------------+  |
-|  | ðŸ’¡ DICA:         |  |
+|  | ê°Å¸âÂ¡ DICA:         |  |
 |  | Sempre comece... |  |
 |  +------------------+  |
 |                        |
-|  â€¢ Item 1              |
-|  â€¢ Item 2              |
-|  â€¢ Item 3              |
+|  ê¢â¬Â¢ Item 1              |
+|  ê¢â¬Â¢ Item 2              |
+|  ê¢â¬Â¢ Item 3              |
 |                        |
 +------------------------+
 ```
 
 ---
 
-### 3. Minimalista SuÃ­Ã§o
+### 3. Minimalista SuêÂ­êÂ§o
 **Arquivo:** `layout_minimalista_suico.js`
 
-**Ideal para:** PortfÃ³lios, manifestos, livros de design/arquitetura
+**Ideal para:** PortfêÂ³lios, manifestos, livros de design/arquitetura
 
-**CaracterÃ­sticas:**
-- Grid assimÃ©trico (coluna de notas + texto principal)
-- Muito espaÃ§o em branco intencional
-- TÃ­tulos gigantes em negrito
+**CaracterêÂ­sticas:**
+- Grid assimêÂ©trico (coluna de notas + texto principal)
+- Muito espaêÂ§o em branco intencional
+- TêÂ­tulos gigantes em negrito
 - Apenas preto, branco e cinza
-- Texto alinhado Ã  esquerda (nunca justificado)
+- Texto alinhado êÂ  esquerda (nunca justificado)
 
-**InspiraÃ§Ã£o:** Josef MÃ¼ller-Brockmann, Vignelli Canon
+**InspiraêÂ§êÂ£o:** Josef MêÂ¼ller-Brockmann, Vignelli Canon
 
 ```
 +------------------------+
@@ -174,10 +174,10 @@ Este projeto inclui 3 estilos de layout profissionais:
 |  A BASE                |
 |                        |
 |  Nota:     O design    |
-|            nÃ£o Ã© sÃ³    |
-|            aparÃªncia.  |
+|            nêÂ£o êÂ© sêÂ³    |
+|            aparêÂªncia.  |
 |                        |
-|            Ã‰ funÃ§Ã£o.   |
+|            êâ° funêÂ§êÂ£o.   |
 |                        |
 |                        |
 |  2                     |
@@ -188,11 +188,11 @@ Este projeto inclui 3 estilos de layout profissionais:
 
 ## Como Usar os Layouts
 
-### MÃ©todo 1: Via Claude Code (Recomendado)
+### MêÂ©todo 1: Via Claude Code (Recomendado)
 
-Simplesmente peÃ§a ao Claude:
+Simplesmente peêÂ§a ao Claude:
 
-> "Crie um eBook usando o layout Editorial ClÃ¡ssico sobre [tema]"
+> "Crie um eBook usando o layout Editorial ClêÂ¡ssico sobre [tema]"
 
 ou
 
@@ -200,41 +200,41 @@ ou
 
 ou
 
-> "Quero um eBook estilo Minimalista SuÃ­Ã§o sobre [tema]"
+> "Quero um eBook estilo Minimalista SuêÂ­êÂ§o sobre [tema]"
 
-### MÃ©todo 2: Executar Diretamente
+### MêÂ©todo 2: Executar Diretamente
 
 ```bash
 # Entrar na pasta do projeto
 cd ebook-maker/ai_report_package
 
-# Gerar com Layout Editorial ClÃ¡ssico
+# Gerar com Layout Editorial ClêÂ¡ssico
 node layout_editorial_classico.js
 
 # Gerar com Layout Moderno Funcional
 node layout_moderno_funcional.js
 
-# Gerar com Layout Minimalista SuÃ­Ã§o
+# Gerar com Layout Minimalista SuêÂ­êÂ§o
 node layout_minimalista_suico.js
 
 # Converter para PDF (Linux)
 libreoffice --headless --convert-to pdf ../output/Layout_Editorial_Classico.docx
 ```
 
-### MÃ©todo 3: Personalizar o Layout
+### MêÂ©todo 3: Personalizar o Layout
 
-Cada arquivo de layout exporta funÃ§Ãµes reutilizÃ¡veis. Exemplo com Editorial ClÃ¡ssico:
+Cada arquivo de layout exporta funêÂ§êÂµes reutilizêÂ¡veis. Exemplo com Editorial ClêÂ¡ssico:
 
 ```javascript
 const {
-  createChapterTitle,  // TÃ­tulo de capÃ­tulo elegante
-  createEpigraph,      // CitaÃ§Ã£o no inÃ­cio
+  createChapterTitle,  // TêÂ­tulo de capêÂ­tulo elegante
+  createEpigraph,      // CitaêÂ§êÂ£o no inêÂ­cio
   createDropCap,       // Capitular decorativa
-  createParagraph,     // ParÃ¡grafo com indentaÃ§Ã£o
+  createParagraph,     // ParêÂ¡grafo com indentaêÂ§êÂ£o
   createSectionBreak   // Separador * * *
 } = require('./layout_editorial_classico.js');
 
-// Use as funÃ§Ãµes para criar seu conteÃºdo personalizado
+// Use as funêÂ§êÂµes para criar seu conteêÂºdo personalizado
 ```
 
 ---
@@ -243,55 +243,55 @@ const {
 
 ```
 ebook-maker/
-â”œâ”€â”€ ai_report_package/
-â”‚   â”œâ”€â”€ create_report.js              # Layout McKinsey (padrÃ£o)
-â”‚   â”œâ”€â”€ layout_editorial_classico.js  # Layout 1: Romances
-â”‚   â”œâ”€â”€ layout_moderno_funcional.js   # Layout 2: Guias/Tutoriais
-â”‚   â”œâ”€â”€ layout_minimalista_suico.js   # Layout 3: Design/PortfÃ³lio
-â”‚   â”œâ”€â”€ logo.png
-â”‚   â””â”€â”€ package.json
-â”œâ”€â”€ .claude/
-â”‚   â””â”€â”€ skills/
-â”‚       â””â”€â”€ ebook-creator.md          # Skill do Claude Code
-â”œâ”€â”€ output/                           # Arquivos gerados
-â”œâ”€â”€ sample/                           # Exemplos
-â”œâ”€â”€ generate_image.py                 # Gerador de capas com IA
-â”œâ”€â”€ requirements.txt
-â”œâ”€â”€ CLAUDE.md
-â””â”€â”€ README.md
+ê¢âÅê¢ââ¬ê¢ââ¬ ai_report_package/
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ create_report.js              # Layout McKinsey (padrêÂ£o)
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ layout_editorial_classico.js  # Layout 1: Romances
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ layout_moderno_funcional.js   # Layout 2: Guias/Tutoriais
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ layout_minimalista_suico.js   # Layout 3: Design/PortfêÂ³lio
+ê¢ââ   ê¢âÅê¢ââ¬ê¢ââ¬ logo.png
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ package.json
+ê¢âÅê¢ââ¬ê¢ââ¬ .claude/
+ê¢ââ   ê¢ââê¢ââ¬ê¢ââ¬ skills/
+ê¢ââ       ê¢ââê¢ââ¬ê¢ââ¬ ebook-creator.md          # Skill do Claude Code
+ê¢âÅê¢ââ¬ê¢ââ¬ output/                           # Arquivos gerados
+ê¢âÅê¢ââ¬ê¢ââ¬ sample/                           # Exemplos
+ê¢âÅê¢ââ¬ê¢ââ¬ generate_image.py                 # Gerador de capas com IA
+ê¢âÅê¢ââ¬ê¢ââ¬ requirements.txt
+ê¢âÅê¢ââ¬ê¢ââ¬ CLAUDE.md
+ê¢ââê¢ââ¬ê¢ââ¬ README.md
 ```
 
 ---
 
-## InstalaÃ§Ã£o Manual (Para Desenvolvedores)
+## InstalaêÂ§êÂ£o Manual (Para Desenvolvedores)
 
-Se preferir nÃ£o usar o Claude Code:
+Se preferir nêÂ£o usar o Claude Code:
 
-### PrÃ©-requisitos
+### PrêÂ©-requisitos
 
-- Node.js v16+ â€” [nodejs.org](https://nodejs.org/)
-- Python 3.8+ â€” [python.org](https://python.org/)
-- LibreOffice â€” [libreoffice.org](https://libreoffice.org/)
+- Node.js v16+ ê¢â¬â [nodejs.org](https://nodejs.org/)
+- Python 3.8+ ê¢â¬â [python.org](https://python.org/)
+- LibreOffice ê¢â¬â [libreoffice.org](https://libreoffice.org/)
 
-### InstalaÃ§Ã£o
+### InstalaêÂ§êÂ£o
 
 ```bash
-# Clonar repositÃ³rio
+# Clonar repositêÂ³rio
 git clone https://github.com/linnoff88-dev/ebook-maker.git
 cd ebook-maker
 
 # Configurar API
 echo "GEMINI_API_KEY=sua_chave_aqui" > .env
 
-# Instalar dependÃªncias Python
+# Instalar dependêÂªncias Python
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# Instalar dependÃªncias Node.js
+# Instalar dependêÂªncias Node.js
 cd ai_report_package && npm install && cd ..
 
-# Criar pasta de saÃ­da
+# Criar pasta de saêÂ­da
 mkdir -p output
 ```
 
@@ -303,9 +303,9 @@ source venv/bin/activate && python generate_image.py
 
 # 2. Gerar documento (escolha um layout)
 cd ai_report_package
-node create_report.js                  # McKinsey (padrÃ£o)
+node create_report.js                  # McKinsey (padrêÂ£o)
 # ou
-node layout_editorial_classico.js      # ClÃ¡ssico
+node layout_editorial_classico.js      # ClêÂ¡ssico
 # ou
 node layout_moderno_funcional.js       # Funcional
 # ou
@@ -318,13 +318,13 @@ libreoffice --headless --convert-to pdf output/*.docx
 
 ---
 
-## PersonalizaÃ§Ã£o AvanÃ§ada
+## PersonalizaêÂ§êÂ£o AvanêÂ§ada
 
 ### Alterar Cores
 
 Cada layout tem constantes de cor no topo do arquivo:
 
-**Editorial ClÃ¡ssico:**
+**Editorial ClêÂ¡ssico:**
 ```javascript
 const DARK_BROWN = "3D2914";
 const GOLD = "8B7355";
@@ -336,7 +336,7 @@ const PRIMARY_BLUE = "0066CC";
 const ACCENT_ORANGE = "FF6600";
 ```
 
-**Minimalista SuÃ­Ã§o:**
+**Minimalista SuêÂ­êÂ§o:**
 ```javascript
 const BLACK = "000000";
 const MEDIUM_GRAY = "999999";
@@ -348,31 +348,31 @@ Procure por `font: "Georgia"` ou `font: "Arial"` e substitua por:
 - Serifadas: `"Times New Roman"`, `"Garamond"`, `"Palatino"`
 - Sans-serif: `"Helvetica"`, `"Roboto"`, `"Open Sans"`
 
-### Adicionar Novas SeÃ§Ãµes
+### Adicionar Novas SeêÂ§êÂµes
 
-Use as funÃ§Ãµes auxiliares de cada layout:
+Use as funêÂ§êÂµes auxiliares de cada layout:
 
 ```javascript
-// Editorial ClÃ¡ssico
-createChapterTitle("III", "Novo CapÃ­tulo")
-createEpigraph("CitaÃ§Ã£o inspiradora", "Autor")
-createDropCap("A", "qui comeÃ§a o texto...")
+// Editorial ClêÂ¡ssico
+createChapterTitle("III", "Novo CapêÂ­tulo")
+createEpigraph("CitaêÂ§êÂ£o inspiradora", "Autor")
+createDropCap("A", "qui comeêÂ§a o texto...")
 
 // Moderno Funcional
-createSectionHeader("03", "NOVA SEÃ‡ÃƒO")
-createTipBox("DICA", "ConteÃºdo da dica")
+createSectionHeader("03", "NOVA SEêâ¡êÆO")
+createTipBox("DICA", "ConteêÂºdo da dica")
 createWarningBox("Aviso importante!")
 createSummaryBox(["Item 1", "Item 2", "Item 3"])
 
-// Minimalista SuÃ­Ã§o
+// Minimalista SuêÂ­êÂ§o
 createSectionTitle("03.", "NOVO TEMA")
 createTwoColumnLayout("Nota lateral", "Texto principal aqui")
-createQuote("CitaÃ§Ã£o impactante")
+createQuote("CitaêÂ§êÂ£o impactante")
 ```
 
 ---
 
-## SoluÃ§Ã£o de Problemas
+## SoluêÂ§êÂ£o de Problemas
 
 ### "Module not found"
 ```bash
@@ -384,7 +384,7 @@ cd ai_report_package && npm install
 echo "GEMINI_API_KEY=sua_chave" > .env
 ```
 
-### PDF nÃ£o gera
+### PDF nêÂ£o gera
 ```bash
 # Linux
 sudo apt install libreoffice
@@ -393,7 +393,7 @@ sudo apt install libreoffice
 brew install libreoffice
 ```
 
-### Imagem de capa nÃ£o aparece
+### Imagem de capa nêÂ£o aparece
 Certifique-se de que existe `output/cover_image.png` antes de rodar o layout.
 
 ---
@@ -401,41 +401,41 @@ Certifique-se de que existe `output/cover_image.png` antes de rodar o layout.
 ## Exemplos de Prompts para o Claude
 
 ```
-"Crie um eBook sobre InteligÃªncia Artificial para Iniciantes"
+"Crie um eBook sobre InteligêÂªncia Artificial para Iniciantes"
 
-"Use o layout Editorial ClÃ¡ssico para criar um livro de poesias"
+"Use o layout Editorial ClêÂ¡ssico para criar um livro de poesias"
 
-"Gere um guia prÃ¡tico de Marketing Digital com layout Moderno Funcional"
+"Gere um guia prêÂ¡tico de Marketing Digital com layout Moderno Funcional"
 
-"Crie um portfÃ³lio minimalista sobre Design de Interiores"
+"Crie um portfêÂ³lio minimalista sobre Design de Interiores"
 
-"FaÃ§a um eBook sobre Produtividade com capa azul e dourada"
+"FaêÂ§a um eBook sobre Produtividade com capa azul e dourada"
 ```
 
 ---
 
-## Stack TecnolÃ³gica
+## Stack TecnolêÂ³gica
 
 | Componente | Tecnologia |
 |------------|------------|
-| GeraÃ§Ã£o de Capa | Google Gemini 3 Pro Image |
-| CriaÃ§Ã£o de Documento | Node.js + [docx](https://www.npmjs.com/package/docx) |
-| ExportaÃ§Ã£o PDF | LibreOffice (headless) |
+| GeraêÂ§êÂ£o de Capa | Google Gemini 3 Pro Image |
+| CriaêÂ§êÂ£o de Documento | Node.js + [docx](https://www.npmjs.com/package/docx) |
+| ExportaêÂ§êÂ£o PDF | LibreOffice (headless) |
 | Assistente IA | Claude Code |
 
 ---
 
-## LicenÃ§a
+## LicenêÂ§a
 
-MIT â€” use como quiser.
+MIT ê¢â¬â use como quiser.
 
 ---
 
 <p align="center">
-  <b>ConstruÃ­do com Claude Code</b><br>
+  <b>ConstruêÂ­do com Claude Code</b><br>
   <a href="https://claude.ai/code">claude.ai/code</a>
 </p>
 
 ---
 
-Projeto adaptado da comunidade ARCKHÉ TDS - Marca Arckhe
+Projeto adaptado da comunidade ARCKHê TDS - ARCKHÉe

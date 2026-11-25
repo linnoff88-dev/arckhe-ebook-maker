@@ -15,9 +15,9 @@ Veja a pasta `sample/` para exemplo de saída:
 - Capa profissional com imagem abstrata gerada por IA
 - Tipografia limpa e esquema de cores corporativo
 - Documento com múltiplas seções e índice
-- PDF pronto para distribuição
+- PDF pronto para distribuiçêo
 
-## Configuração
+## Configuraçêo
 
 ### 1. Chave de API
 
@@ -29,18 +29,18 @@ GEMINI_API_KEY=sua_chave_aqui
 ### 2. Instalar Dependências
 
 ```bash
-# Python (para geração da imagem de capa)
+# Python (para geraçêo da imagem de capa)
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-# Node.js (para geração do documento)
+# Node.js (para geraçêo do documento)
 cd ai_report_package && npm install
 ```
 
-### 3. Conversão para PDF (Opcional)
+### 3. Conversêo para PDF (Opcional)
 
-Requer LibreOffice para conversão de .docx para .pdf.
+Requer LibreOffice para conversêo de .docx para .pdf.
 
 ## Estrutura do Projeto
 
@@ -51,22 +51,22 @@ eBook Maker/
 ├── ai_report_package/
 │   ├── create_report.js    # Gerador de documento (edite para conteúdo)
 │   └── logo.png            # Logo da empresa
-├── output/                 # Arquivos gerados vão aqui
+├── output/                 # Arquivos gerados vêo aqui
 │   ├── cover_image.png
 │   └── State_of_AI_2026.docx/.pdf
 ├── sample/                 # Exemplo de saída para referência
 ├── generate_image.py       # Gerador de imagem de capa (edite o prompt)
 ├── requirements.txt
-└── .env                    # Chave de API (não commitado)
+└── .env                    # Chave de API (nêo commitado)
 ```
 
-## Personalização
+## Personalizaçêo
 
 | O quê | Onde |
 |-------|------|
 | Estilo da imagem de capa | `generate_image.py` → edite a variável `prompt` |
 | Cores da marca | `ai_report_package/create_report.js` → topo do arquivo |
-| Título e subtítulo | `ai_report_package/create_report.js` → seção da capa |
+| Título e subtítulo | `ai_report_package/create_report.js` → seçêo da capa |
 | Conteúdo do relatório | `ai_report_package/create_report.js` → seções de conteúdo |
 
 ## Referência de Comandos
@@ -85,7 +85,7 @@ cd ai_report_package && node create_report.js
 libreoffice --headless --convert-to pdf output/State_of_AI_2026.docx
 ```
 
-## Design Padrão
+## Design Padrêo
 
 Estética de consultoria inspirada na McKinsey:
 - Capa com imagem abstrata gerada por IA em sangria total

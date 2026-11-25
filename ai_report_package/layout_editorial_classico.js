@@ -1,14 +1,14 @@
 /**
  * LAYOUT: EDITORIAL CLÁSSICO
  * Estilo: Livros de romance, biografias, história
- * Inspiração: Penguin Classics, The Elements of Typographic Style
+ * Inspiraçêo: Penguin Classics, The Elements of Typographic Style
  *
  * Características:
  * - Fonte serifada (Georgia/Times New Roman)
  * - Margens largas (inferior maior que superior - estilo Van de Graaf)
  * - Texto justificado
  * - Capitulares decorativas
- * - Numeração de página centralizada no rodapé
+ * - Numeraçêo de página centralizada no rodapé
  * - Elegância e autoridade
  */
 
@@ -63,7 +63,7 @@ function createChapterTitle(number, title) {
   ];
 }
 
-// Epígrafe (citação no início do capítulo)
+// Epígrafe (citaçêo no início do capítulo)
 function createEpigraph(quote, author) {
   return [
     new Paragraph({
@@ -81,7 +81,7 @@ function createEpigraph(quote, author) {
   ];
 }
 
-// Parágrafo normal com indentação
+// Parágrafo normal com indentaçêo
 function createParagraph(text, firstParagraph = false) {
   return new Paragraph({
     alignment: AlignmentType.JUSTIFIED,
@@ -91,7 +91,7 @@ function createParagraph(text, firstParagraph = false) {
   });
 }
 
-// Separador de seção
+// Separador de seçêo
 function createSectionBreak() {
   return new Paragraph({
     alignment: AlignmentType.CENTER,
@@ -193,43 +193,43 @@ const doc = new Document({
 
         createDropCap("V", "ivemos em um momento singular da história humana. Pela primeira vez, podemos conversar com máquinas que compreendem nossas palavras e respondem com inteligência. Mas essa conversa exige uma nova habilidade: a arte de formular perguntas precisas."),
 
-        createParagraph("A engenharia de prompt não é meramente técnica. É, antes de tudo, um exercício de clareza mental. Quando você aprende a comunicar suas ideias a uma inteligência artificial, está também refinando sua própria capacidade de pensar."),
+        createParagraph("A engenharia de prompt nêo é meramente técnica. É, antes de tudo, um exercício de clareza mental. Quando você aprende a comunicar suas ideias a uma inteligência artificial, está também refinando sua própria capacidade de pensar."),
 
-        createParagraph("Os antigos retóricos gregos sabiam que a persuasão dependia da escolha cuidadosa das palavras. Aristóteles dedicou tratados inteiros à arte de construir argumentos eficazes. Hoje, essa sabedoria ancestral encontra nova aplicação."),
+        createParagraph("Os antigos retóricos gregos sabiam que a persuasêo dependia da escolha cuidadosa das palavras. Aristóteles dedicou tratados inteiros à arte de construir argumentos eficazes. Hoje, essa sabedoria ancestral encontra nova aplicaçêo."),
 
         createSectionBreak(),
 
         createParagraph("Considere o prompt como um mapa. Quanto mais detalhado for seu mapa, mais preciso será o caminho que a inteligência artificial seguirá. Um mapa vago leva a destinos incertos; um mapa preciso conduz exatamente onde você deseja ir.", true),
 
-        createParagraph("Os mestres dessa arte compreendem que cada palavra carrega peso. A diferença entre um resultado medíocre e um resultado extraordinário frequentemente reside em um único adjetivo, uma vírgula bem posicionada, ou uma instrução adicional que esclarece a intenção."),
+        createParagraph("Os mestres dessa arte compreendem que cada palavra carrega peso. A diferença entre um resultado medíocre e um resultado extraordinário frequentemente reside em um único adjetivo, uma vírgula bem posicionada, ou uma instruçêo adicional que esclarece a intençêo."),
 
         new Paragraph({ children: [new PageBreak()] }),
 
         // Capítulo 2
         ...createChapterTitle("II", "Os Fundamentos da Clareza"),
-        ...createEpigraph("Simplicidade é a sofisticação suprema.", "Leonardo da Vinci"),
+        ...createEpigraph("Simplicidade é a sofisticaçêo suprema.", "Leonardo da Vinci"),
 
         createDropCap("T", "odo prompt eficaz compartilha certas características universais. Primeiro, há o contexto: as informações de fundo que situam a inteligência artificial no cenário correto. Sem contexto, a máquina opera às cegas."),
 
-        createParagraph("Em seguida, vem a instrução propriamente dita. O que você deseja que aconteça? Esta pergunta, aparentemente simples, revela-se surpreendentemente difícil de responder com precisão. Muitos falham não por falta de conhecimento técnico, mas por não saberem exatamente o que querem."),
+        createParagraph("Em seguida, vem a instruçêo propriamente dita. O que você deseja que aconteça? Esta pergunta, aparentemente simples, revela-se surpreendentemente difícil de responder com precisêo. Muitos falham nêo por falta de conhecimento técnico, mas por nêo saberem exatamente o que querem."),
 
-        createParagraph("O formato desejado constitui o terceiro pilar. Uma resposta pode ser correta em substância mas inadequada em forma. Deseja uma lista? Um parágrafo? Uma tabela? Quanto mais específico for neste aspecto, melhores serão seus resultados."),
+        createParagraph("O formato desejado constitui o terceiro pilar. Uma resposta pode ser correta em substância mas inadequada em forma. Deseja uma lista? Um parágrafo? Uma tabela? Quanto mais específico for neste aspecto, melhores serêo seus resultados."),
 
         createSectionBreak(),
 
-        createParagraph("Por fim, há o tom. A mesma informação pode ser apresentada de maneiras radicalmente diferentes. Um relatório executivo exige formalidade; uma explicação para crianças requer simplicidade; uma peça criativa pede liberdade.", true),
+        createParagraph("Por fim, há o tom. A mesma informaçêo pode ser apresentada de maneiras radicalmente diferentes. Um relatório executivo exige formalidade; uma explicaçêo para crianças requer simplicidade; uma peça criativa pede liberdade.", true),
 
-        createParagraph("Estes quatro elementos — contexto, instrução, formato e tom — formam a estrutura básica sobre a qual toda comunicação eficaz com inteligência artificial deve ser construída. Domine-os, e você terá dominado os fundamentos."),
+        createParagraph("Estes quatro elementos — contexto, instruçêo, formato e tom — formam a estrutura básica sobre a qual toda comunicaçêo eficaz com inteligência artificial deve ser construída. Domine-os, e você terá dominado os fundamentos."),
 
         new Paragraph({ children: [new PageBreak()] }),
 
         // Capítulo 3
         ...createChapterTitle("III", "A Jornada Continua"),
-        ...createEpigraph("O início da sabedoria é a definição dos termos.", "Sócrates"),
+        ...createEpigraph("O início da sabedoria é a definiçêo dos termos.", "Sócrates"),
 
-        createDropCap("A", "o concluir estas páginas, você não chega ao fim, mas ao início. O conhecimento aqui compartilhado é semente; compete a você cultivá-la através da prática diária e da reflexão constante."),
+        createDropCap("A", "o concluir estas páginas, você nêo chega ao fim, mas ao início. O conhecimento aqui compartilhado é semente; compete a você cultivá-la através da prática diária e da reflexêo constante."),
 
-        createParagraph("Lembre-se sempre: a engenharia de prompt não é sobre manipular máquinas, mas sobre aprimorar sua própria capacidade de expressão. Cada prompt bem construído é um exercício de pensamento claro."),
+        createParagraph("Lembre-se sempre: a engenharia de prompt nêo é sobre manipular máquinas, mas sobre aprimorar sua própria capacidade de expressêo. Cada prompt bem construído é um exercício de pensamento claro."),
 
         createParagraph("Os grandes comunicadores de todas as épocas compartilham uma característica: a capacidade de traduzir ideias complexas em palavras precisas. Esta habilidade, mais valiosa hoje do que nunca, está ao seu alcance."),
 

@@ -1,14 +1,14 @@
 /**
  * LAYOUT: MINIMALISTA SUÍÇO
  * Estilo: Portfólios, manifestos, livros de design/arquitetura
- * Inspiração: Josef Müller-Brockmann, Vignelli Canon
+ * Inspiraçêo: Josef Müller-Brockmann, Vignelli Canon
  *
  * Características:
  * - Grid assimétrico (coluna lateral + texto principal)
  * - Muito espaço em branco
  * - Títulos gigantes em Helvetica/Arial Black
  * - Texto alinhado à esquerda (nunca justificado)
- * - Numeração de página minimalista
+ * - Numeraçêo de página minimalista
  * - Contraste alto (preto no branco)
  * - Uso de peso tipográfico para hierarquia
  */
@@ -30,7 +30,7 @@ const WHITE = "FFFFFF";
 const noBorder = { style: BorderStyle.NONE, size: 0, color: WHITE };
 const noBorders = { top: noBorder, bottom: noBorder, left: noBorder, right: noBorder };
 
-// Título de seção gigante com número
+// Título de seçêo gigante com número
 function createSectionTitle(number, title) {
   return [
     new Paragraph({
@@ -83,7 +83,7 @@ function createTwoColumnLayout(sideNote, mainText) {
 function createMainText(text) {
   return new Paragraph({
     alignment: AlignmentType.LEFT,
-    indent: { left: 2520 }, // Indentação para alinhar com coluna direita
+    indent: { left: 2520 }, // Indentaçêo para alinhar com coluna direita
     spacing: { after: 240, line: 360 },
     children: [new TextRun({ text: text, size: 24, font: "Arial", color: DARK_GRAY })]
   });
@@ -99,7 +99,7 @@ function createSubtitle(text) {
   });
 }
 
-// Citação destacada
+// Citaçêo destacada
 function createQuote(text) {
   return new Paragraph({
     alignment: AlignmentType.LEFT,
@@ -220,26 +220,26 @@ const doc = new Document({
         })
       },
       children: [
-        // Seção 01
+        // Seçêo 01
         ...createSectionTitle("01.", "A BASE"),
 
         createTwoColumnLayout(
           "Conceito",
-          "A engenharia de prompt não é sobre escrever comandos para máquinas. É sobre clareza de pensamento. Quando você aprende a formular instruções precisas para uma IA, está na verdade refinando sua capacidade de pensar."
+          "A engenharia de prompt nêo é sobre escrever comandos para máquinas. É sobre clareza de pensamento. Quando você aprende a formular instruções precisas para uma IA, está na verdade refinando sua capacidade de pensar."
         ),
 
         createWhitespace(400),
 
         createTwoColumnLayout(
           "Princípio",
-          "Menos é mais. Um prompt eficaz não precisa ser longo. Precisa ser exato. Cada palavra deve ter propósito. Cada instrução deve ser necessária."
+          "Menos é mais. Um prompt eficaz nêo precisa ser longo. Precisa ser exato. Cada palavra deve ter propósito. Cada instruçêo deve ser necessária."
         ),
 
-        createQuote("A forma segue a função."),
+        createQuote("A forma segue a funçêo."),
 
         createTwoColumnLayout(
           "Nota",
-          "Este princípio, central ao design suíço, aplica-se perfeitamente à engenharia de prompt. A estrutura do seu prompt deve servir ao resultado desejado, não ao contrário."
+          "Este princípio, central ao design suíço, aplica-se perfeitamente à engenharia de prompt. A estrutura do seu prompt deve servir ao resultado desejado, nêo ao contrário."
         ),
 
         createDivider(),
@@ -247,13 +247,13 @@ const doc = new Document({
         createSubtitle("Os elementos essenciais"),
 
         createListItem("Contexto: o cenário"),
-        createListItem("Instrução: a ação"),
+        createListItem("Instruçêo: a açêo"),
         createListItem("Formato: a forma"),
         createListItem("Tom: a voz"),
 
         new Paragraph({ children: [new PageBreak()] }),
 
-        // Seção 02
+        // Seçêo 02
         ...createSectionTitle("02.", "O MÉTODO"),
 
         createTwoColumnLayout(
@@ -265,14 +265,14 @@ const doc = new Document({
 
         createTwoColumnLayout(
           "Processo",
-          "Primeiro, defina o que você realmente precisa. Não o que você acha que precisa. O que você realmente precisa. Esta distinção é crucial."
+          "Primeiro, defina o que você realmente precisa. Nêo o que você acha que precisa. O que você realmente precisa. Esta distinçêo é crucial."
         ),
 
         createQuote("Disciplina é liberdade."),
 
         createTwoColumnLayout(
           "Insight",
-          "Quanto mais restrito o brief, mais criativa pode ser a solução. Limites não são obstáculos. São ferramentas."
+          "Quanto mais restrito o brief, mais criativa pode ser a soluçêo. Limites nêo sêo obstáculos. Sêo ferramentas."
         ),
 
         createDivider(),
@@ -288,7 +288,7 @@ const doc = new Document({
 
         createTwoColumnLayout(
           "Few-Shot",
-          "Mostre, não conte. Dois ou três exemplos comunicam mais que parágrafos de explicação."
+          "Mostre, nêo conte. Dois ou três exemplos comunicam mais que parágrafos de explicaçêo."
         ),
 
         createWhitespace(200),
@@ -300,21 +300,21 @@ const doc = new Document({
 
         new Paragraph({ children: [new PageBreak()] }),
 
-        // Seção 03
+        // Seçêo 03
         ...createSectionTitle("03.", "A PRÁTICA"),
 
         createTwoColumnLayout(
-          "Aplicação",
-          "Teoria sem prática é estéril. Prática sem teoria é cega. O domínio vem da combinação deliberada de ambas."
+          "Aplicaçêo",
+          "Teoria sem prática é estéril. Prática sem teoria é cega. O domínio vem da combinaçêo deliberada de ambas."
         ),
 
         createWhitespace(400),
 
-        createQuote("Simplicidade é a sofisticação suprema."),
+        createQuote("Simplicidade é a sofisticaçêo suprema."),
 
         createTwoColumnLayout(
           "Leonardo da Vinci",
-          "Esta frase, atribuída ao mestre renascentista, captura a essência da engenharia de prompt. O objetivo não é a complexidade. É a clareza."
+          "Esta frase, atribuída ao mestre renascentista, captura a essência da engenharia de prompt. O objetivo nêo é a complexidade. É a clareza."
         ),
 
         createDivider(),
